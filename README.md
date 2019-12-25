@@ -23,7 +23,7 @@ Transfer learning was also used to use already trained models (VGG-16 in this ca
 ### Main CNN Model
 I had tried to imitate VGG-16 in the step 3 and I used VGG-16 for the transfer learning in step 4. Here is the architecture of VGG-16:
 
-![VGG-16 Architecture][vgg16_architecture.png]
+![VGG-16 Architecture][https://github.com/Tiwarim386/Dog_Breed_Classifier_CNN/blob/master/vgg16_architecture.png]
 
 ### Libraries
 
