@@ -32,7 +32,9 @@ and I used VGG-16 for the transfer learning in step 4. Here is the architecture 
 ![VGG16 Architecture](vgg16_architecture.png)
 
 
-###Final Prediction
+ ## Final Prediction
+ 
+ 
 ![Prediction](prediction.PNG)
 
 
