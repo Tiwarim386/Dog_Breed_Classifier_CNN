@@ -21,9 +21,16 @@ Transfer learning was also used to use already trained models (VGG-16 in this ca
 - Step 6: Testing Own Algorithm
 
 ### Main CNN Model
-I had tried to imitate VGG-16 in the step 3 and I used VGG-16 for the transfer learning in step 4. Here is the architecture of VGG-16:
 
-![vgg16_architecture][/vgg16_architecture.png]
+![Model Architecture](model_architecture.png)
+
+I used this architecture in the step 3 
+
+
+and I used VGG-16 for the transfer learning in step 4. Here is the architecture of VGG-16:
+
+![VGG16 Architecture](vgg16_architecture.png)
+
 
 ### Libraries
 
@@ -31,11 +38,11 @@ The list below represents main libraries and its objects for the project.
 - [PyTorch](https://pytorch.org/) (Convolutional Neural Network)
 - [OpenCV](https://opencv.org/) (Human Face Detection)
 - [Matplotlib](https://matplotlib.org/) (Plot Images)
-- [Numpy](http://www.numpy.org/) (^^)
+- [Numpy](http://www.numpy.org/) 
 
 ### Accelerating the Training Proecess
 
-In the training step in the Step 3 and 4, it was taking too long to run so you will need to either reduce the complexity of the VGG-16 architecture or switch to running the code on a GPU.
+In the training step in the Step 3 and 4, it will take too long to run so you will need to either reduce the complexity of the VGG-16 architecture or switch to running the code on a GPU or use Google Colab.
 
 #### Amazon Web Services
 
