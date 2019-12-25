@@ -1,7 +1,7 @@
 # Dog_Breed_Classifier_CNN
 
 Dog Breed Classification Project which uses CNN's to classify real world dog images and predict their breed out of 133 breeds/classes.
-If supplied an image of a human face, the code will identify the resembling dog breed.
+If supplied an image of a human face, the code will identify the resembling dog breed.  Achieved an accuracy of 81% (with just one epoch!!!) using VGG-16 and Transfer learning.
 
 I learned how to build a pipeline that can be used within a web or mobile app to process real-world, user-supplied images.
 Transfer learning was also used to use already trained models (VGG-16 in this case) which perform well.These models take weeks to train on high-end GPU's and hence it's not feasible to train them on PC.
@@ -13,10 +13,10 @@ Transfer learning was also used to use already trained models (VGG-16 in this ca
 
 - Intro
 - Step 0: Import Datasets
-- Step 1: Detect Humans
-- Step 2: Detect Dog
-- Step 3: Create a CNN to Classify Dog Breeds (from Scratch)
-- Step 4: Create a CNN to Classify Dog Breeds (using Transfer Learning)
+- Step 1: Detect Humans                                                           Accuracy-98%
+- Step 2: Detect Dog                                                              Accuracy-98%
+- Step 3: Create a CNN to Classify Dog Breeds (from Scratch)                      Accuracy-16%
+- Step 4: Create a CNN to Classify Dog Breeds (using Transfer Learning)           Accuracy-81% 
 - Step 5: Writing Own Algorithm
 - Step 6: Testing Own Algorithm
 
