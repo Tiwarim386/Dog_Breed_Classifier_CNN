@@ -32,6 +32,11 @@ and I used VGG-16 for the transfer learning in step 4. Here is the architecture 
 ![VGG16 Architecture](vgg16_architecture.png)
 
 
+###Final Prediction
+![Prediction](prediction.PNG)
+
+
+
 ### Libraries
 
 The list below represents main libraries and its objects for the project.
