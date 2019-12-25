@@ -22,7 +22,7 @@ Transfer learning was also used to use already trained models (VGG-16 in this ca
 
 ### Main CNN Model
 
-![Model Architecture](model_architecture.png)
+![Model Architecture](model_architecture.PNG)
 
 I used this architecture in the step 3 
 
