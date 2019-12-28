@@ -47,6 +47,10 @@ The list below represents main libraries and its objects for the project.
 - [Matplotlib](https://matplotlib.org/) (Plot Images)
 - [Numpy](http://www.numpy.org/) 
 
+### Dataset
+* Download the [dog dataset](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/dogImages.zip)
+* Download the [human_dataset](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/lfw.zip)
+
 ### Accelerating the Training Proecess
 
 In the training step in the Step 3 and 4, it will take too long to run so you will need to either reduce the complexity of the VGG-16 architecture or switch to running the code on a GPU or use Google Colab.
