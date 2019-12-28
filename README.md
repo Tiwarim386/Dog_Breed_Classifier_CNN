@@ -53,4 +53,4 @@ In the training step in the Step 3 and 4, it will take too long to run so you wi
 
 #### Amazon Web Services
 
-I Used Amazon Web Services to launch an EC2 GPU instance. (This costs money!)
+I Used Amazon Web Services to launch a GPU instance. (This costs money!)
