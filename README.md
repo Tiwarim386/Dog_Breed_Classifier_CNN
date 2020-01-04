@@ -38,6 +38,26 @@ and I used VGG-16 for the transfer learning in step 4. Here is the architecture 
 ![Prediction](prediction.PNG)
 
 
+## Future tasks to make my project stand out
+
+### 1 AUGMENT THE TRAINING DATA
+Augmenting the training and/or validation set might help improve model performance. 
+### (DONE NOW)
+
+### 2 TURN YOUR ALGORITHM INTO A WEB APP
+Turning the code into a web app using Flask! . Planning to deploy on aws cloud.
+
+### 3 OVERLAY DOG EARS ON DETECTED HUMAN HEADS
+Overlay a Snapchat-like filter with dog ears on detected human heads. can determine where to place the ears through the use of the OpenCV face detector, which returns a bounding box for the face. would also like to overlay a dog nose filter, some nice tutorials for facial keypoints detection exist [here](https://www.kaggle.com/c/facial-keypoints-detection/details/deep-learning-tutorial) .
+
+### 4 ADD FUNCTIONALITY FOR DOG MUTTS
+Currently, if a dog appears 51% German Shephard and 49% poodle, only the German Shephard breed is returned. The algorithm is currently guaranteed to fail for every mixed breed dog. Of course, if a dog is predicted as 99.5% Labrador, it is still worthwhile to round this to 100% and return a single breed; so, need to find a nice balance.
+
+### 5 EXPERIMENT WITH MULTIPLE DOG/HUMAN DETECTORS
+Perform a systematic evaluation of various methods for detecting humans and dogs in images & Provide improved methodology for the face_detector and dog_detector functions.
+
+
+
 
 ### Libraries
 
